@@ -47,7 +47,7 @@ namespace Reconocedor_de_Voz_Anomalias
         {
             switch (e.Result.Text)
             {
-                case "Mecanica":
+                case "Mecánica":
                     tipoAnomalia = "Mecánica";
                     btnMecanica_Click(null, null);
                     btnSiguiente.Enabled = true;
